@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <hr size="3" noshade>
+
+<!-- *********************************************************************************************** -->
+
+    <h1>My Contact Details</h1>
+    <p>My Address is: 1232 Home, City, State, Zip</p>
+    <p>Phone: 3244355467</p>
+    <p>Email: email_email@outlook.com</p>
+    <hr size="3" noshade>
+
+<!-- *********************************************************************************************** -->
+    <!-- The "action" Attribute is the action that the submit button will take when it is clicked. So, we can direct the action to send the enterd information to an email, and This
+    can be done by changing the value of the "action" Attribute to "mailto:". -->
+    <!-- The "post" value of the "method" Attribute means that whatever the user types in the input feilds into the email client. -->
+    <!-- The "enctype" Attribute will help to transfer all the entered information to a plain text in the email. Also we changed all the values of the "name" Attributes of all the inputs
+    so we can have showed in the email --> 
+    <form action="mailto:allen_mostafa@outlook.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="YourName" value=""><br>
+      <label>Your Email</label>
+      <input type="email" name="YourEmail" value=""><br>
+      <label>Password</label>
+      <input type="password" name="" value=""><br>
+      <label>Today's Date</label>
+      <input type="date" name="" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+      <label>If you are interested please check the box</label>
+      <input type="checkbox" name="" value="">
+      <input type="submit" name="">
+    </form>
+    <hr size="3" noshade>
+  </body>
+</html>
